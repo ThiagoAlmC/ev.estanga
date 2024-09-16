@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Virtual</title>
+    <link rel="stylesheet" href="tienda-virtual.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Productos Disponibles</h1>
+        <div id="productos"></div>
+
+        <h2>Carrito de Compras</h2>
+        <div id="carrito"></div>
+
+        <div class="carrito">
+            <h3>Agregar Producto</h3>
+            <input type="text" id="nombreProducto" placeholder="Nombre del producto">
+            <input type="number" id="precioProducto" placeholder="Precio del producto">
+            <button id="agregarProductoBtn">Agregar Producto</button>
+        </div>
+    </div>
+
+    <script src="server.js"></script>
+</body>
+</html>
